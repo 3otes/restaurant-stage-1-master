@@ -223,8 +223,9 @@
   #restaurant-img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    max-height: 70vw;
+    max-height: 66vw;
   }
+
   #restaurant-address {
     color: yellow;
     font-family: 'Roboto', sans-serif;
@@ -532,7 +533,7 @@
   #restaurant-img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    max-height: 67vw;
+    max-height: 66vw;
   }
   #restaurant-address {
     color: yellow;
@@ -835,7 +836,7 @@
   #restaurant-img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    max-height: 70vw;
+    max-height: 66vw;
   }
   #restaurant-address {
     color: yellow;
@@ -1142,7 +1143,7 @@
   #restaurant-img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    max-height: 70vw;
+    max-height: 66vw;
   }
   #restaurant-address {
     color: yellow;
