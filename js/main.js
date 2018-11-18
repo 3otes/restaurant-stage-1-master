@@ -3,9 +3,7 @@ let restaurants,
   cuisines;
 var newMap;
 var markers = [];
-
 //Make sure service worker is supported.
-
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', ()=> {
     navigator.serviceWorker.register('sw_cached_pages.js')
@@ -13,7 +11,6 @@ if ('serviceWorker' in navigator) {
   })
 
 }
-
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
