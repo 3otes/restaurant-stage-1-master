@@ -8,9 +8,9 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    const port = 3000 // Change this to your server port
+    const port = 3000; // Change this to your server port
     return `http://127.0.0.1:${port}/data/restaurants.json`;
-  }
+  };
 
   /**
    * Fetch all restaurants.
@@ -29,7 +29,7 @@ class DBHelper {
       }
     };
     xhr.send();
-  }
+  };
 
   /**
    * Fetch a restaurant by its ID.
@@ -48,7 +48,7 @@ class DBHelper {
         }
       }
     });
-  }
+  };
 
   /**
    * Fetch restaurants by a cuisine type with proper error handling.
@@ -64,7 +64,7 @@ class DBHelper {
         callback(null, results);
       }
     });
-  }
+  };
 
   /**
    * Fetch restaurants by a neighborhood with proper error handling.
@@ -80,7 +80,7 @@ class DBHelper {
         callback(null, results);
       }
     });
-  }
+  };
 
   /**
    * Fetch restaurants by a cuisine and a neighborhood with proper error handling.
@@ -131,9 +131,9 @@ class DBHelper {
         callback(error, null);
       } else {
         // Get all cuisines from all restaurants
-        const cuisines = restaurants.map((v, i) => restaurants[i].cuisine_type)
+        const cuisines = restaurants.map((v, i) => restaurants[i].cuisine_type);
         // Remove duplicates from cuisines
-        const uniqueCuisines = cuisines.filter((v, i) => cuisines.indexOf(v) == i)
+        const uniqueCuisines = cuisines.filter((v, i) => cuisines.indexOf(v) == i);
         callback(null, uniqueCuisines);
       }
     });
@@ -162,7 +162,7 @@ class DBHelper {
       {title: restaurant.name,
       alt: restaurant.name,
       url: DBHelper.urlForRestaurant(restaurant)
-      })
+    });
       marker.addTo(newMap);
     return marker;
   }

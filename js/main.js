@@ -1,8 +1,8 @@
 let restaurants,
   neighborhoods,
-  cuisines
-var newMap
-var markers = []
+  cuisines;
+var newMap;
+var markers = [];
 
 //Make sure service worker is supported.
 
