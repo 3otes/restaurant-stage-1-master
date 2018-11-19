@@ -95,6 +95,9 @@ initMap = () => {
   }).addTo(newMap);
 
   updateRestaurants();
+  setTimeout(function(){
+    self.newMap.invalidateSize()
+  }, 400);
 }
 /* window.initMap = () => {
   let loc = {

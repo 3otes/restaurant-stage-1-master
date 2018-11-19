@@ -32,6 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
   margin: 0 0 20px;
+	width: 100%;
+	text-align: center;
 }
 
 article, aside, canvas, details, figcaption, figure, header, hgroup, menu, nav, section {
@@ -156,6 +158,8 @@ nav h1 {
 #restaurant-address {
   font-size: 12pt;
   margin: 10px 0px;
+	width: 100%;
+	text-align: center;
 }
 
 #reviews-container {
